@@ -1,0 +1,123 @@
+*{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+button{
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+main{
+    min-height: calc(100vh - 129px);
+    display: grid;
+    align-items: center;
+}
+
+.title{
+    font-size: 30px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 35px 40px;
+    z-index: 999999999999999;
+}
+
+#form{
+    position: relative;
+    display: grid;
+    gap: 20px;
+    background: rgba(0,0,0,.8);
+    padding: 25px 25px;
+    border-radius: 10px;
+    border: 1px solid;
+    width: 277px;
+    margin: auto;
+    justify-items: center;
+    z-index: 999;
+}
+
+#form label{
+    font-size: 25px;
+}
+
+#form input{
+    width: 218px;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+}
+
+#btn{
+    display: flex;
+    padding: 4px 7px;
+    border-radius: 5px;
+}
+
+#btn img{
+    width: 20px;
+    padding-left: 5px;
+}
+
+#form input, #btn{
+    color: black;
+}
+
+.picture{
+    width: 40%;
+    max-height: 348px;
+    border-radius: 10px;
+}
+
+.text{
+    width: calc(100% / 2);
+    background: rgba(0,0,0,.8);
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.date{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    border: 5px double white;
+    padding: 5px;
+}
+
+.title-picture{
+    margin: 15px 0;
+}
+
+.description{
+    text-align: justify;
+    font-size: 13px;
+}
+
+.btn-new{
+    width: 100%;
+}
+
+.newBtn{
+    margin: auto;
+    margin-top: 30px;
+    color: black;
+}
+
+.copyright{
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 200;
+}
