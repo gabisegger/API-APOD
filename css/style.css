@@ -121,3 +121,22 @@ main{
     font-size: 10px;
     font-weight: 200;
 }
+
+@media (max-width: 1024px) {
+    main {
+        min-height: calc(100vh - 175px)
+    }
+    .container{
+        display: grid;
+        justify-items: center;
+        gap: 20px;
+    }
+    .picture{
+        width: 100%;
+    }
+    .text{
+        margin-left: 0;
+        width: 100%;
+    }
+
+}
